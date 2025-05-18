@@ -76,7 +76,7 @@ h1 {
   color: #e5e7eb;
 }
 
-.description button {
+button {
   padding: 8px 16px;
   width: 25%;
   border: 0px;
@@ -105,14 +105,11 @@ a:hover {
   transition: 0.3s;
 }
 
-.informations-bg {
+.informations-bg,
+.feedback-bg {
   display: flex;
   justify-content: center;
-}
-
-.informations {
-  display: block;
-  text-align: center;
+  margin-bottom: 80px;
 }
 
 .informations > h2 {
@@ -120,6 +117,7 @@ a:hover {
   font-size: 36px;
   font-weight: 900;
   color: #1f2937;
+  text-align: center;
 }
 
 .informations-cards {
@@ -139,7 +137,7 @@ a:hover {
   margin-bottom: 10px;
 }
 
-.card img{
+.card img {
   border-radius: 10px;
 }
 
@@ -149,4 +147,30 @@ a:hover {
 
 #tux {
   object-fit: cover;
+}
+
+.feedback-bg {
+  background: #e5e7eb;
+}
+
+.feedback-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  width: 800px;
+}
+
+blockquote {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.feedback-content p {
+  align-self: flex-end;
+  padding-right: 40px;
+  font-weight: 600;
 }
