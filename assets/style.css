@@ -92,9 +92,9 @@ picture {
 }
 
 img {
+  object-fit: cover;
   width: 100%;
   height: 100%;
-  object-fit: cover;
   border-radius: 4px;
 }
 
@@ -114,11 +114,11 @@ a:hover {
 }
 
 .informations > h2 {
+  text-align: center;
   margin-bottom: 50px;
   font-size: 36px;
   font-weight: 900;
   color: #1f2937;
-  text-align: center;
 }
 
 .informations-cards {
@@ -129,8 +129,8 @@ a:hover {
 }
 
 .card {
-  width: 25%;
   text-align: center;
+  width: 25%;
 }
 
 .card-img-container {
@@ -138,7 +138,8 @@ a:hover {
   margin-bottom: 10px;
 }
 
-.card img {
+.card img,
+.register {
   border-radius: 10px;
 }
 
@@ -164,9 +165,9 @@ a:hover {
 }
 
 blockquote {
-  font-size: 36px;
   font-weight: lighter;
   font-style: italic;
+  font-size: 36px;
   color: #1f2937;
 }
 
@@ -177,11 +178,10 @@ blockquote {
 }
 
 .register {
-  background: #3882f6;
   display: flex;
   justify-content: space-around;
   padding: 48px;
-  border-radius: 10px;
+  background: #3882f6;
   color: #f9faf8;
 }
 
@@ -190,11 +190,11 @@ blockquote {
 }
 
 footer {
-  background: #1f2937;
-  padding: 20px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 20px 0px;
+  background: #1f2937;
   color: white;
 }
 
